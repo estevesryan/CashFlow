@@ -1,0 +1,11 @@
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.deps.json
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/bin/Debug/net8.0/CashFlow.Domain.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.AssemblyInfoInputs.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.AssemblyInfo.cs
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.csproj.CoreCompileInputs.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/refint/CashFlow.Domain.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/CashFlow.Domain.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/Debug/net8.0/ref/CashFlow.Domain.dll

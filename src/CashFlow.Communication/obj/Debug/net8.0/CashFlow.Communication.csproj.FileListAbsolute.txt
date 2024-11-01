@@ -1,0 +1,11 @@
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.deps.json
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/bin/Debug/net8.0/CashFlow.Communication.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfoInputs.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.AssemblyInfo.cs
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.csproj.CoreCompileInputs.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/refint/CashFlow.Communication.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/CashFlow.Communication.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/Debug/net8.0/ref/CashFlow.Communication.dll

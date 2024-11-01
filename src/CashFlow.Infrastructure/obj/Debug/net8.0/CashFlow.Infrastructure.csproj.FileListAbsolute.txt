@@ -1,0 +1,15 @@
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Infrastructure.deps.json
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Infrastructure.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Infrastructure.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Domain.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/bin/Debug/net8.0/CashFlow.Domain.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.csproj.AssemblyReference.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.AssemblyInfoInputs.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.AssemblyInfo.cs
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.84FCB40E.Up2Date
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/refint/CashFlow.Infrastructure.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.pdb
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/ref/CashFlow.Infrastructure.dll

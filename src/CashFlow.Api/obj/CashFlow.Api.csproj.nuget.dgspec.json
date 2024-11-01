@@ -1,0 +1,424 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/CashFlow.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/CashFlow.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/CashFlow.Api.csproj",
+        "projectName": "CashFlow.Api",
+        "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/CashFlow.Api.csproj",
+        "packagesPath": "/Users/esteves_ryan/.nuget/packages/",
+        "outputPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esteves_ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj"
+              },
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              },
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              },
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "projectName": "CashFlow.Application",
+        "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj",
+        "packagesPath": "/Users/esteves_ryan/.nuget/packages/",
+        "outputPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esteves_ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj"
+              },
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              },
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "projectName": "CashFlow.Communication",
+        "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj",
+        "packagesPath": "/Users/esteves_ryan/.nuget/packages/",
+        "outputPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Communication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esteves_ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "projectName": "CashFlow.Domain",
+        "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj",
+        "packagesPath": "/Users/esteves_ryan/.nuget/packages/",
+        "outputPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esteves_ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "projectName": "CashFlow.Exception",
+        "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj",
+        "packagesPath": "/Users/esteves_ryan/.nuget/packages/",
+        "outputPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esteves_ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "projectName": "CashFlow.Infrastructure",
+        "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/CashFlow.Infrastructure.csproj",
+        "packagesPath": "/Users/esteves_ryan/.nuget/packages/",
+        "outputPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esteves_ryan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj": {
+                "projectPath": "/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
