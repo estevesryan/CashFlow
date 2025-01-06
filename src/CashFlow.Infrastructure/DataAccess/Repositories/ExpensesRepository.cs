@@ -11,6 +11,17 @@ internal class ExpensesRepository(CashFlowDbContext dbContext) : IExpensesWriteO
         await dbContext.Expenses.AddAsync(expense);
     }
 
+    public async Task<bool> Delete(int id)
+    {
+        var expense = await dbContext.Expenses.FirstOrDefaultAsync(x => x.Id == id);
+
+        if (expense is null) return false;
+        
+        dbContext.Expenses.Remove(expense);
+
+        return true;
+    }
+
     public async Task<List<Expense>> GetAll()
     {
         return await dbContext.Expenses.AsNoTracking().ToListAsync();

@@ -1,11 +1,9 @@
-using AutoMapper;
+using CashFlow.Application.UseCases.Expenses.Delete;
 using CashFlow.Application.UseCases.Expenses.GetAll;
 using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
-using CashFlow.Exception.ExceptionsBase;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers
@@ -39,7 +37,7 @@ namespace CashFlow.Api.Controllers
         }
 
         [HttpGet]
-        [Route("{id}")]
+        [Route("{id:long}")]
         [ProducesResponseType(typeof(ResponseExpenseJson), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetById([FromRoute] long id, [FromServices] IGetExpenseByIdUseCase useCase)
@@ -48,5 +46,17 @@ namespace CashFlow.Api.Controllers
 
             return Ok(response);
         }
+        
+        [HttpDelete]
+        [Route("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> Delete([FromRoute] int id, [FromServices] IDeleteExpenseUseCase useCase)
+        {
+            await useCase.Execute(id);
+
+            return NoContent();
+        }
+        
     }
 }
