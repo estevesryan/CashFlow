@@ -23,21 +23,10 @@ public class ExceptionFilter : IExceptionFilter
 
     private static void HandleProjectException(ExceptionContext context)
     {
-        var errorResponse = new ResponseErrorJson(context.Exception.Message);
-        
-        switch (context.Exception)
-        {
-            case ErrorOnValidationException exception:
-            {
-                errorResponse = new ResponseErrorJson(exception.Errors);
-                context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-                break;
-            }
-            
-            default:
-                context.Result = new ObjectResult(errorResponse);
-                break;
-        }
+        var cashFlowExeption = context.Exception as CashFlowExeption;
+        var errorResponse = new ResponseErrorJson(cashFlowExeption!.GetErrors());
+        context.HttpContext.Response.StatusCode = cashFlowExeption.StatusCode;
+        context.Result = new ObjectResult(errorResponse);
     }
 
     private static void ThrowUnknownError(ExceptionContext context)

@@ -15,3 +15,4 @@
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.ResourceErrorMessages.pt-BR.resources
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/pt-BR/CashFlow.Exception.resources.cs
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/pt-BR/CashFlow.Exception.resources.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Exception/obj/Debug/net8.0/CashFlow.Exception.sourcelink.json

@@ -13,3 +13,4 @@
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/refint/CashFlow.Infrastructure.dll
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.pdb
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/ref/CashFlow.Infrastructure.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Infrastructure/obj/Debug/net8.0/CashFlow.Infrastructure.sourcelink.json

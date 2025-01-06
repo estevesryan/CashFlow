@@ -245,3 +245,4 @@
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/MySqlConnector.dll
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/bin/Debug/net8.0/AutoMapper.dll
+/Users/esteves_ryan/RiderProjects/CashFlow/src/CashFlow.Api/obj/Debug/net8.0/CashFlow.Api.sourcelink.json
