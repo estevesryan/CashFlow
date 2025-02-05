@@ -8,7 +8,7 @@ namespace CashFlow.Application.UseCases.Expenses.GetById;
 
 public class GetExpenseByIdUseCase(IExpensesReadOnlyRepository expensesRepository, IMapper mapper) : IGetExpenseByIdUseCase
 {
-    public async Task<ResponseExpenseJson> Execute(long id)
+    public async Task<ResponseExpenseJson> Execute(int id)
     {       
         var expense = await expensesRepository.GetById(id);
 

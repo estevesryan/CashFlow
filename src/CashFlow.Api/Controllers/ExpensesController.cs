@@ -2,6 +2,7 @@ using CashFlow.Application.UseCases.Expenses.Delete;
 using CashFlow.Application.UseCases.Expenses.GetAll;
 using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.Register;
+using CashFlow.Application.UseCases.Expenses.Update;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +18,7 @@ namespace CashFlow.Api.Controllers
         [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Register(
             [FromServices] IRegisterExpenseUseCase useCase,
-            [FromBody] RequestRegisterExpenseJson request)
+            [FromBody] RequestExpenseJson request)
         {
             var response = await useCase.Execute(request);
 
@@ -37,10 +38,10 @@ namespace CashFlow.Api.Controllers
         }
 
         [HttpGet]
-        [Route("{id:long}")]
+        [Route("{id:int}")]
         [ProducesResponseType(typeof(ResponseExpenseJson), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetById([FromRoute] long id, [FromServices] IGetExpenseByIdUseCase useCase)
+        public async Task<IActionResult> GetById([FromRoute] int id, [FromServices] IGetExpenseByIdUseCase useCase)
         {
             var response = await useCase.Execute(id);
 
@@ -54,6 +55,21 @@ namespace CashFlow.Api.Controllers
         public async Task<IActionResult> Delete([FromRoute] int id, [FromServices] IDeleteExpenseUseCase useCase)
         {
             await useCase.Execute(id);
+
+            return NoContent();
+        }
+        
+        [HttpPut]
+        [Route("{id:int}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Update(
+            [FromRoute] int id,
+            [FromBody] RequestExpenseJson request,
+            [FromServices] IUpdateExpenseUseCase useCase)
+        {
+            await useCase.Execute(id, request);
 
             return NoContent();
         }
